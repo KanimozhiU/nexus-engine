@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+title: "NexusEngine: Ontology-Constrained, Provenance-Grounded, Multi-Modal Generation for Infrastructure Digital Twins"
+message: "If you use NexusEngine or the NEXUS-INFRA-412 benchmark in your research, please cite it as below."
+type: software
+version: "1.0.0"
+date-released: "2026-11-18"
+url: "https://github.com/KanimozhiU/nexus-engine"
+repository-code: "https://github.com/KanimozhiU/nexus-engine"
+license: Apache-2.0
+authors:
+  - family-names: "Uma"
+    given-names: "Kanimozhi"
+    affiliation: "SE-Link BV"
+    email: "kani@se-link.be"
+  - family-names: "Vanalderweireldt"
+    given-names: "Merijn"
+    affiliation: "SE-Link BV"
+    email: "merijn@se-link.be"
+keywords:
+  - natural language generation
+  - digital twins
+  - knowledge graphs
+  - multi-modal generation
+  - ontology-constrained generation
+  - civil infrastructure
+preferred-citation:
+  type: conference-paper
+  title: "NexusEngine: Ontology-Constrained, Provenance-Grounded, Multi-Modal Generation for Infrastructure Digital Twins"
+  authors:
+    - family-names: "Uma"
+      given-names: "Kanimozhi"
+      affiliation: "SE-Link BV"
+      email: "kani@se-link.be"
+    - family-names: "Vanalderweireldt"
+      given-names: "Merijn"
+      affiliation: "SE-Link BV"
+      email: "merijn@se-link.be"
+  collection-title: "Proceedings of the 19th International Natural Language Generation Conference (INLG 2026)"
+  conference:
+    name: "19th International Natural Language Generation Conference (INLG 2026)"
+  year: 2026
+  publisher:
+    name: "Association for Computational Linguistics"

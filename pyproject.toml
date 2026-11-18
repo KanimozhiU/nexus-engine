@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nexus-engine"
+version = "1.0.0"
+description = "Ontology-Constrained, Provenance-Grounded Multi-Modal Generation for Infrastructure Digital Twins"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Kanimozhi Uma" }, { name = "Merijn Vanalderweireldt" }]
+dependencies = [
+    "pydantic>=2.5.0",
+    "networkx>=3.0",
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0",
+    "pillow>=10.0.0"
+]
+
+[project.scripts]
+nexus-engine = "nexus_engine.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+norecursedirs = ["node_modules", ".venv", "dist", "build", "exports"]

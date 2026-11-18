@@ -1,0 +1,25 @@
+{
+  "benchmark": "NEXUS-INFRA-412",
+  "description": "Multi-modal infrastructure digital twin benchmark (Uma & Vanalderweireldt, INLG 2026)",
+  "composition": {
+    "schematics_pages": 187,
+    "tabular_registers_pages": 138,
+    "mixed_reports_pages": 87,
+    "total_pages": 412
+  },
+  "ground_truth": {
+    "total_assets": 4713,
+    "total_relations": 6208,
+    "annotators": 2,
+    "kappa_typing": 0.81,
+    "kappa_relations": 0.75
+  },
+  "reproducible_subset": {
+    "total_pages": 28,
+    "schematics": 12,
+    "tabular": 10,
+    "reports": 6,
+    "assets": 350,
+    "relations": 195
+  }
+}
